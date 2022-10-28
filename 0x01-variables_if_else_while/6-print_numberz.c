@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	char c;
+	int c;
 
 	for ( ; c <= '9'; c++)
 		if (c >= '0')
