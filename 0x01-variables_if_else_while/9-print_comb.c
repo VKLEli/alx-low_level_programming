@@ -15,11 +15,12 @@ int main(void)
 
 	do {
 		putchar(i);
-			if (i <= '9')
+			if (i >= '9')
 				break;
 		putchar(',');
 		putchar(' ');
 		i++;
+
 	} while (i <= '9');
 
 	putchar('\n');
